@@ -565,6 +565,92 @@ h1, h2, h3{
 
 }
 
-@media (min-width: 501px) and (max-width: 767){
+@media(min-width: 501px) and (max-width: 768){
+    html{
+        font-size: 50%;
+    }
+    
+    p{
+        font-size: 1.8rem;
+    }
+    
+    /* ***************** INDEX PAGE ****************/
+    /* *************** header styling **************/
+    
+    .navbar .logo, .navbar .nav-items{
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    /* *************** showcase styling **************/
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .img-box,
+    .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .row .text-box h2{
+        font-size: 3rem;
+    }
+
+    /* *************** features styling **************/
+
+    .features{
+        padding-top: 0;
+        background-color: #ddd;
+    }
+    .features .box{
+        float: none;
+        display: block;
+        width: 100%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+    }
+    .features .box-2{
+        margin: 8rem 0 8rem 0;
+    }
+    .box-wrapper{
+        box-shadow: none;
+    }
+    
+    /* ***************** ABOUT PAGE ****************/
+    /* *************** banner styling **************/
+
+    .cta-banner .cta-banner-left{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .cta-banner .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .btn-cta{
+        float: none;
+    }
+
+    /* ***************** CONTACT PAGE ****************/
+    /* ************** company addr styling ***********/
+
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+    
 
 }
